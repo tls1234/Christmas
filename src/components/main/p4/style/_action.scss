@@ -1,0 +1,66 @@
+@-webkit-keyframes wish {
+  0% {
+    opacity: 1;
+    bottom: 2.5rem;
+  }
+  100% {
+    bottom: 8rem;
+    -webkit-transform: scale(0.5);
+  }
+}
+@keyframes wish {
+  0% {
+    opacity: 1;
+    bottom: 2.5rem;
+  }
+  100% {
+    bottom: 8rem;
+    transform: scale(0.5);
+  }
+}
+.wish_action {
+  -moz-animation: wish 20s linear;
+  -webkit-animation: wish 20s linear;
+  animation: wish 20s linear;
+}
+
+@-webkit-keyframes btn_ci {
+  0% {
+    background-image: url('./image/btn_ci.png');
+  }
+  15% {
+    background-image: url('./image/btn_ci_up.png');
+  }
+  30% {
+    background-image: url('./image/btn_ci.png');
+  }
+  45% {
+    background-image: url('./image/btn_ci_up.png');
+  }
+  60% {
+    background-image: url('./image/btn_ci.png');
+  }
+  100% {
+    background-image: url('./image/btn_ci.png');
+  }
+}
+@keyframes btn_ci {
+  0% {
+    background-image: url('./image/btn_ci.png');
+  }
+  15% {
+    background-image: url('./image/btn_ci_up.png');
+  }
+  30% {
+    background-image: url('./image/btn_ci.png');
+  }
+  45% {
+    background-image: url('./image/btn_ci_up.png');
+  }
+  60% {
+    background-image: url('./image/btn_ci.png');
+  }
+  100% {
+    background-image: url('./image/btn_ci.png');
+  }
+}

@@ -1,0 +1,123 @@
+@import "../../../../common/style/common";
+@import "action";
+
+#p2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  .sub_content {
+    position: relative;
+
+    .robot1 {
+      top: -0.5rem;
+      left: 0.13rem;
+    }
+
+    .robot2 {
+      top: -0.27rem;
+      right: 0.63rem;
+    }
+
+    .title {
+      background-image: url("./image/title.png");
+      background-size: 100% 100%;
+      width: 1.835rem;
+      height: 0.705rem;
+      margin: {
+        top: 0.5rem;
+        left: auto;
+        bottom: 0;
+        right: auto;
+      };
+    }
+
+    .tree {
+      position: relative;
+      margin: 0 auto;
+      .robot3 {
+        bottom: 1.4rem;
+        left: 0.8rem;
+        width: 0.6rem;
+        height: 0.51rem;
+      }
+      .robot4 {
+        bottom: 0.86rem;
+        right: 0.66rem;
+        width: 0.6rem;
+        height: 0.49rem;
+      }
+      .robot5 {
+        bottom: 0.78rem;
+        left: 0.42rem;
+      }
+    }
+
+    .lantern1 {
+      top: 0.34rem;
+      left: 0.53rem;
+    }
+    .lantern2 {
+      top: 0.6rem;
+      right: 0.5rem;
+    }
+
+  }
+
+  .co_name {
+    font-size: 0.065rem;
+    left: 0.05rem;
+    bottom: 0.08rem;
+    z-index: 9998;
+    color: whitesmoke;
+  }
+
+  .supporter {
+    font-size: 0.065rem;
+    z-index: 9998;
+    color: whitesmoke;
+    text-align: center;
+    bottom: 0.05rem;
+    left: 0.78rem;
+    .sub_supporter {
+      margin-right: 0.089rem;
+    }
+    .locale_suppoter1 {
+      margin-right: 0.045rem;
+    }
+  }
+
+  .co_img {
+    width: 0.38rem;
+    height: 0.145rem;
+    background-image: url('./image/copyright.png');
+    background-size: cover;
+    bottom: 0.08rem;
+    right: 0.08rem;
+    z-index: 9998;
+  }
+
+  .btn_start {
+    width: 1.01rem;
+    height: 0.405rem;
+    background-image: url('./image/btn_attend.png');
+    background-size: cover;
+    -moz-animation: btn_start_action 1.3s infinite step-start;
+    -webkit-animation: btn_start_action 1.3s infinite step-start;
+    animation: btn_start_action 1.3s infinite step-start;
+    bottom: 0.73rem;
+    left: 1.095rem;
+    z-index: 9999;
+  }
+
+  .logo {
+    width: 1.765rem;
+    height: 0.42rem;
+    background-image: url('./image/logo.png');
+    background-size: cover;
+    position: absolute;
+    z-index: 9000;
+    bottom: 0.26rem;
+    left: 0.7175rem;
+  }
+
+}

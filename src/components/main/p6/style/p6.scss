@@ -1,0 +1,166 @@
+@import "../../../../common/style/common";
+@import "action";
+
+#p6 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+
+  .robot1 {
+    left: 0.15rem;
+    top: 0.1rem;
+  }
+  .robot2 {
+    right: 0.3rem;
+    top: 0.39rem;
+  }
+  .robot3 {
+    bottom: 1.15rem;
+    right: 7%;
+  }
+  .content {
+    width: 100%;
+    position: absolute;
+    bottom: 0.23rem;
+  }
+  .dialog {
+    background-image: url("./image/dialog.png");
+    background-size: 100% auto;
+    width: 70%;
+    height: 2.38rem;
+    margin: auto;
+    padding-top: 0.38rem;
+    padding-bottom: 0.08rem;
+  }
+  .award_rule {
+    width: 100%;
+    height: 1.7rem;
+    background-color: white;
+    position: relative;
+    .word {
+      width: 2.345rem;
+      height: 1.005rem;
+      background-size: cover;
+      background-image: url("./image/msg_word03.png");
+      margin: auto;
+    }
+    .detail_wrap {
+      position: relative;
+      height: 0.18rem;
+      margin-top: 0.03rem;
+    }
+    .btn_detail {
+      width: 0.825rem;
+      height: 0.18rem;
+      background-size: cover;
+      background-image: url("./image/btn_detail.png");
+      position: absolute;
+      right: 20%;
+    }
+    .award_detail {
+      width: 2.445rem;
+      height: 3.3rem;
+      position: absolute;
+      bottom: 0.18rem;
+      right: 0.3775rem;
+      z-index: 8000;
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .content {
+    .msg {
+      width: 1.38rem;
+      height: 0.29rem;
+      background-size: cover;
+      background-image: url("./image/msg_word02.png");
+      margin: auto;
+    }
+    .award {
+      background-image: url("./image/gift_tv.png");
+      background-size: 100% 100%;
+      width: 1.145rem;
+      height: 1rem;
+      margin: auto;
+    }
+  }
+  .form {
+    .input_wrap {
+      width: 78%;
+      height: 0.3rem;
+      border-radius: 0.3rem;
+      margin: 0.03rem auto;
+      border-style: solid;
+      border-width: 0.02rem;
+      border-color: #1a6b07;
+    }
+    .input {
+      display: block;
+      width: 84%;
+      margin: auto;
+      height: 0.22rem;
+      outline: 0;
+      -webkit-appearance: none;
+      background-color: transparent;
+      color: inherit;
+      border-style: solid;
+      border-width: 0;
+      border-bottom-width: 0.01rem;
+      border-radius: 0;
+      border-color: #1a6b07;
+      padding-left: 5%;
+      font-size: 0.14rem;
+    }
+  }
+
+  .msg1 {
+    margin: {
+      top: 0.1rem;
+      left: auto;
+      right: auto;
+      bottom: 0.03rem;
+    };
+  }
+  .msg2 {
+    width: 0.985rem;
+    height: 0.195rem;
+    background-size: cover;
+    background-image: url("./image/msg_word04.png");
+    margin: 0.03rem auto;
+  }
+  .luckybag {
+    background-image: url("./image/luckybag.png");
+    background-size: 100% 100%;
+    width: 0.985rem;
+    height: 1.155rem;
+    margin: auto;
+  }
+  .msg3 {
+    width: 1.66rem;
+    height: 0.505rem;
+    background-size: cover;
+    background-image: url("./image/msg_word05.png");
+    margin: auto;
+  }
+
+  .msg4 {
+    width: 1.35rem;
+    height: 1.22rem;
+    background-size: cover;
+    background-image: url("./image/msg_word06.png");
+    margin: 0.5rem auto;
+  }
+
+  .ci {
+    width: 1.75rem;
+    height: 0.32rem;
+    background-size: cover;
+    background-image: url("./image/btn_ci.png");
+    margin: auto;
+    -moz-animation: btn_ci 1.3s infinite step-start;
+    -webkit-animation: btn_ci 1.3s infinite step-start;
+    animation: btn_ci 1.3s infinite step-start;
+  }
+}

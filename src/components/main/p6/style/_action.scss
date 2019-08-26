@@ -1,0 +1,40 @@
+@-webkit-keyframes btn_ci {
+  0% {
+    background-image: url('./image/btn_ci.png');
+  }
+  15% {
+    background-image: url('./image/btn_ci_up.png');
+  }
+  30% {
+    background-image: url('./image/btn_ci.png');
+  }
+  45% {
+    background-image: url('./image/btn_ci_up.png');
+  }
+  60% {
+    background-image: url('./image/btn_ci.png');
+  }
+  100% {
+    background-image: url('./image/btn_ci.png');
+  }
+}
+@keyframes btn_ci {
+  0% {
+    background-image: url('./image/btn_ci.png');
+  }
+  15% {
+    background-image: url('./image/btn_ci_up.png');
+  }
+  30% {
+    background-image: url('./image/btn_ci.png');
+  }
+  45% {
+    background-image: url('./image/btn_ci_up.png');
+  }
+  60% {
+    background-image: url('./image/btn_ci.png');
+  }
+  100% {
+    background-image: url('./image/btn_ci.png');
+  }
+}

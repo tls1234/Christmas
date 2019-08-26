@@ -1,0 +1,133 @@
+@import "../../../../common/style/common";
+@import "action";
+
+#p4 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  .robot1 {
+    left: 0.15rem;
+    top: 0.1rem;
+  }
+  .robot2 {
+    right: 0.6rem;
+    top: 0.55rem;
+  }
+  .text_form {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 84%;
+    height: 2rem;
+    position: absolute;
+    border-radius: 0.1rem;
+    left: 8%;
+    bottom: 0.3rem;
+    z-index: 7000;
+  }
+  .form_title {
+    width: 1.425rem;
+    height: 0.385rem;
+    background-image: url('./image/msg_word07.png');
+    background-size: cover;
+    margin: {
+      top: 0.1rem;
+      left: auto;
+      right: auto;
+      bottom: 0.1rem;
+    };
+  }
+  .text_input {
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 20%;
+    resize: none;
+    position: relative;
+    z-index: 9999;
+    border-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 0.02rem;
+    font-size: 0.12rem;
+  }
+  .wishes_wall {
+    width: 84%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+  }
+  .wish_in {
+    transform: scale(1);
+    opacity: 1;
+    bottom: 2.5rem;
+  }
+  .wish {
+    $width: 2.5rem;
+    $height: 0.65rem;
+    $in-width: 0.45rem;
+    width: $width;
+    height: $in-width;
+    position: absolute;
+    bottom: 2.5rem;
+    opacity: 0;
+    color: whitesmoke;
+    -moz-animation: wish 20s linear;
+    -webkit-animation: wish 20s linear;
+    animation: wish 20s linear;
+    .wish_wrap {
+      position: relative;
+      width: $width;
+      height: $height;
+    }
+    .user_wrap {
+      width: $height;
+      height: $height;
+      position: absolute;
+      left: 0;
+      top: 0;
+      .headimg {
+        width: $in-width;
+        height: $in-width;
+        background-image: url("./image/robot_ledi.png");
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-color: whitesmoke;
+        border-radius: 1rem;
+        margin: auto;
+      }
+      .name {
+        max-width: $height;
+        height: $height - $in-width;
+        font-size: 0.12rem;
+        font-weight: bold;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+    .wish_word {
+      width: $width - $height;
+      height: $in-width - 0.18rem;
+      font-size: 0.12rem;
+      text-align: left;
+      position: absolute;
+      left: $height;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+      margin: 0.09rem 0;
+      line-height: 0.14rem;
+    }
+  }
+  .ci {
+    width: 1.75rem;
+    height: 0.32rem;
+    background-size: cover;
+    background-image: url("./image/btn_ci.png");
+    margin: auto;
+    -moz-animation: btn_ci 1.3s infinite step-start;
+    -webkit-animation: btn_ci 1.3s infinite step-start;
+    animation: btn_ci 1.3s infinite step-start;
+  }
+}

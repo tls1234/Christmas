@@ -1,0 +1,40 @@
+@-webkit-keyframes btn_start_action {
+  0% {
+    background-image: url('./image/btn_attend.png');
+  }
+  15% {
+    background-image: url('./image/btn_attend_up.png');
+  }
+  30% {
+    background-image: url('./image/btn_attend.png');
+  }
+  45% {
+    background-image: url('./image/btn_attend_up.png');
+  }
+  60% {
+    background-image: url('./image/btn_attend.png');
+  }
+  100% {
+    background-image: url('./image/btn_attend_up.png');
+  }
+}
+@keyframes btn_start_action {
+  0% {
+    background-image: url('./image/btn_attend.png');
+  }
+  15% {
+    background-image: url('./image/btn_attend_up.png');
+  }
+  30% {
+    background-image: url('./image/btn_attend.png');
+  }
+  45% {
+    background-image: url('./image/btn_attend_up.png');
+  }
+  60% {
+    background-image: url('./image/btn_attend.png');
+  }
+  100% {
+    background-image: url('./image/btn_attend_up.png');
+  }
+}

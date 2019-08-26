@@ -1,0 +1,93 @@
+@import "../../../../common/style/common";
+@import "action";
+
+#p5 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+
+  .btn {
+    position: absolute;
+    z-index: 9999;
+    bottom: 1.5rem;
+    right: 0.96rem;
+  }
+  .robot1 {
+    left: 0.15rem;
+    top: 0.1rem;
+  }
+  .robot2 {
+    right: 0.6rem;
+    top: 0.55rem;
+  }
+  .msg_dialog {
+    background-size: cover;
+    position: relative;
+    margin: auto;
+  }
+  .dialog1 {
+    width: 1.84rem;
+    height: 0.615rem;
+    background-image: url('./image/msg_dialog01.png');
+  }
+  .dialog2 {
+    width: 2.13rem;
+    height: 0.62rem;
+    background-image: url('./image/msg_dialog02.png');
+  }
+  .lucky_num {
+    background-image: url("./image/out_roll.png");
+    width: 1.05rem;
+    height: 1.05rem;
+    background-size: 100% 100%;
+    margin: 0.08rem auto;
+
+    .num {
+      line-height: 0.45rem;
+      font-size: 0.26rem;
+      color: white;
+      text-indent: 0.06rem;
+      word-spacing: 0.08rem;
+      letter-spacing: 0.05rem;
+      text-shadow: 0 0 0.01rem #fff,
+      0 0 0.02rem  #fff,
+      0 0 0.03rem  #fff,
+      0 0 0.04rem  #ffd158,
+      0 0 0.07rem  #ffd158,
+      0 0 0.08rem  #ffd158;
+    }
+  }
+  .msg_warn {
+    width: 1.075rem;
+    height: 0.15rem;
+    background-image: url('./image/msg_word01.png');
+    background-size: cover;
+    margin: 0.08rem auto;
+  }
+  .btn_award {
+    margin: auto;
+    width: 1.515rem;
+    height: 1.265rem;
+    background-image: url('./image/btn_award_up.png');
+    background-size: cover;
+    -moz-animation: btn_award 1.3s infinite step-start;
+    -webkit-animation: btn_award 1.3s infinite step-start;
+    animation: btn_award 1.3s infinite step-start;
+  }
+  .lantern1 {
+    top: 0.61rem;
+    left: -0.18rem;
+  }
+  .lantern2 {
+    top: 0.61rem;
+    right: -0.1rem;
+  }
+  .tree {
+    .btn_award {
+      position: absolute;
+      bottom: 0.75rem;
+      left: 0.55rem;
+      z-index: 8000;
+    }
+  }
+}

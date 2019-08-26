@@ -1,0 +1,422 @@
+@import "../../../../common/style/common";
+@import "action";
+
+#p3 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  .sub_content {
+    position: relative;
+    .robot1 {
+      top: -0.5rem;
+      left: 0.13rem;
+    }
+    .robot2 {
+      top: -0.27rem;
+      right: 0.63rem;
+    }
+    .time_counter {
+      font-size: 0.46rem;
+      font-weight: bold;
+      padding: 0.01rem;
+      color: white;
+      position: absolute;
+      z-index: 9999;
+      bottom: 0.1rem;
+      left: 0.5rem;
+    }
+    .bling1 {
+      z-index: 1;
+      left: 0;
+    }
+    .bling2 {
+      z-index: 1;
+      right: 0;
+    }
+    .ledi_block {
+      background-image: url("./image/ledi_white.png");
+      background-size: 100% 100%;
+      width: 2.615rem;
+      height: 2.77rem;
+      position: relative;
+      margin: auto;
+      z-index: 9900;
+      .ledi_color {
+        width: 2.59rem;
+        height: 2.74rem;
+        position: absolute;
+        top: 0.01rem;
+        left: 0.01rem;
+      }
+      .ledi_slice01 {
+        width: 1.91rem;
+        $height: 0.46rem;
+        $top: 0rem;
+        $left: 0.66rem;
+        $width1: 0.5rem;
+        $width2: 0.6rem;
+        $width3: 0.81rem;
+        height: $height;
+        .slice01 {
+          $left-revise: $left;
+          width: $width1;
+          top: $top;
+          left: $left-revise;
+          height: $height;
+          background-position-x: -$left-revise;
+          background-position-y: -$top;
+        }
+        .slice02 {
+          $left-revise: $left+$width1;
+          width: $width2;
+          top: $top;
+          left: $left-revise;
+          height: $height;
+          background-position-x: -$left-revise;
+          background-position-y: -$top;
+        }
+        .slice03 {
+          $left-revise: $left+$width1+$width2;
+          width: $width3;
+          top: $top;
+          left: $left-revise;
+          height: $height;
+          background-position-x: -$left-revise;
+          background-position-y: -$top;
+        }
+      }
+      .ledi_slice02 {
+        width: 0.94rem;
+        $height: 0.1rem;
+        $top: 0.1rem;
+        $left: 0.72rem;
+        $width1: 0.5rem;
+        $width2: 0.44rem;
+        height: $height;
+        .slice01 {
+          $left-revise: $left;
+          width: $width1;
+          top: $top;
+          left: $left-revise;
+          height: $height;
+          background-position-x: -$left-revise;
+          background-position-y: -$top;
+        }
+        .slice02 {
+          $left-revise: $left+$width1;
+          width: $width2;
+          top: $top;
+          left: $left-revise;
+          height: $height;
+          background-position-x: -$left-revise;
+          background-position-y: -$top;
+        }
+      }
+      .ledi_slice03 {
+        width: 1.91rem;
+        $height: 0.26rem;
+        $top: 0.2rem;
+        $left: 0.66rem;
+        $width1: 0.5rem;
+        $width2: 0.6rem;
+        $width3: 0.81rem;
+        height: $height;
+        .slice01 {
+          $left-revise: $left;
+          width: $width1;
+          top: $top;
+          left: $left-revise;
+          height: $height;
+          background-position-x: -$left-revise;
+          background-position-y: -$top;
+        }
+        .slice02 {
+          $left-revise: $left+$width1;
+          width: $width2;
+          top: $top;
+          left: $left-revise;
+          height: $height;
+          background-position-x: -$left-revise;
+          background-position-y: -$top;
+        }
+        .slice03 {
+          $left-revise: $left+$width1+$width2;
+          width: $width3;
+          top: $top;
+          left: $left-revise;
+          height: $height;
+          background-position-x: -$left-revise;
+          background-position-y: -$top;
+        }
+      }
+      .ledi_slice04 {
+        width: 2.25rem;
+        $height: 0.4rem;
+        $top: 0.46rem;
+        $left: 0.36rem;
+        $width1: 0.61rem;
+        $width2: 1.23rem;
+        $width3: 0.41rem;
+        height: $height;
+        .slice01 {
+          $left-revise: $left;
+          width: $width1;
+          top: $top;
+          left: $left-revise;
+          height: $height;
+          background-position-x: -$left-revise;
+          background-position-y: -$top;
+        }
+        .slice02 {
+          $left-revise: $left+$width1;
+          width: $width2;
+          top: $top;
+          left: $left-revise;
+          height: $height;
+          background-position-x: -$left-revise;
+          background-position-y: -$top;
+        }
+        .slice03 {
+          $left-revise: $left+$width1+$width2;
+          width: $width3;
+          top: $top;
+          left: $left-revise;
+          height: $height;
+          background-position-x: -$left-revise;
+          background-position-y: -$top;
+        }
+      }
+      .ledi_slice05 {
+        width: 2.57rem;
+        $height: 0.24rem;
+        $top: 0.86rem;
+        $left: 0;
+        $width1: 0.82rem;
+        $width2: 1rem;
+        $width3: 0.75rem;
+        height: $height;
+        .slice01 {
+          $left-revise: $left;
+          width: $width1;
+          top: $top;
+          left: $left-revise;
+          height: $height;
+          background-position-x: -$left-revise;
+          background-position-y: -$top;
+        }
+        .slice02 {
+          $left-revise: $left+$width1;
+          width: $width2;
+          top: $top;
+          left: $left-revise;
+          height: $height;
+          background-position-x: -$left-revise;
+          background-position-y: -$top;
+        }
+        .slice03 {
+          $left-revise: $left+$width1+$width2;
+          width: $width3;
+          top: $top;
+          left: $left-revise;
+          height: $height;
+          background-position-x: -$left-revise;
+          background-position-y: -$top;
+        }
+      }
+      .ledi_slice06 {
+        width: 1.65rem;
+        $height: 0.3rem;
+        $top: 1.1rem;
+        $left: 0.7rem;
+        $width1: 0.26rem;
+        $width2: 0.74rem;
+        $width3: 0.65rem;
+        height: $height;
+        .slice01 {
+          $left-revise: $left;
+          width: $width1;
+          top: $top;
+          left: $left-revise;
+          height: $height;
+          background-position-x: -$left-revise;
+          background-position-y: -$top;
+        }
+        .slice02 {
+          $left-revise: $left+$width1;
+          width: $width2;
+          top: $top;
+          left: $left-revise;
+          height: $height;
+          background-position-x: -$left-revise;
+          background-position-y: -$top;
+        }
+        .slice03 {
+          $left-revise: $left+$width1+$width2;
+          width: $width3;
+          top: $top;
+          left: $left-revise;
+          height: $height;
+          background-position-x: -$left-revise;
+          background-position-y: -$top;
+        }
+      }
+      .ledi_slice07 {
+        width: 1.69rem;
+        $height: 0.51rem;
+        $top: 1.4rem;
+        $left: 0.62rem;
+        $width1: 0.26rem;
+        $width2: 0.46rem;
+        $width3: 0.65rem;
+        $width4: 0.32rem;
+        height: $height;
+        .slice01 {
+          $left-revise: $left;
+          width: $width1;
+          top: $top;
+          left: $left-revise;
+          height: $height;
+          background-position-x: -$left-revise;
+          background-position-y: -$top;
+        }
+        .slice02 {
+          $left-revise: $left+$width1;
+          width: $width2;
+          top: $top;
+          left: $left-revise;
+          height: $height;
+          background-position-x: -$left-revise;
+          background-position-y: -$top;
+        }
+        .slice03 {
+          $left-revise: $left+$width1+$width2;
+          width: $width3;
+          top: $top;
+          left: $left-revise;
+          height: $height;
+          background-position-x: -$left-revise;
+          background-position-y: -$top;
+        }
+        .slice04 {
+          $left-revise: $left+$width1+$width2+$width3;
+          width: $width4;
+          top: $top;
+          left: $left-revise;
+          height: $height;
+          background-position-x: -$left-revise;
+          background-position-y: -$top;
+        }
+      }
+      .ledi_slice08 {
+        width: 1.19rem;
+        $height: 0.3rem;
+        $top: 1.91rem;
+        $left: 1.19rem;
+        $width1: 0.52rem;
+        $width2: 0.67rem;
+        height: $height;
+        .slice01 {
+          $left-revise: $left;
+          width: $width1;
+          top: $top;
+          left: $left-revise;
+          height: $height;
+          background-position-x: -$left-revise;
+          background-position-y: -$top;
+        }
+        .slice02 {
+          $left-revise: $left+$width1;
+          width: $width2;
+          top: $top;
+          left: $left-revise;
+          height: $height;
+          background-position-x: -$left-revise;
+          background-position-y: -$top;
+        }
+      }
+      .ledi_slice09 {
+        width: 1.24rem;
+        $height: 0.3rem;
+        $top: 2.21rem;
+        $left: 1.17rem;
+        $width1: 0.52rem;
+        $width2: 0.72rem;
+        height: $height;
+        .slice01 {
+          $left-revise: $left;
+          width: $width1;
+          top: $top;
+          left: $left-revise;
+          height: $height;
+          background-position-x: -$left-revise;
+          background-position-y: -$top;
+        }
+        .slice02 {
+          $left-revise: $left+$width1;
+          width: $width2;
+          top: $top;
+          left: $left-revise;
+          height: $height;
+          background-position-x: -$left-revise;
+          background-position-y: -$top;
+        }
+      }
+      .ledi_slice10 {
+        width: 1.28rem;
+        $height: 0.25rem;
+        $top: 2.51rem;
+        $left: 1.17rem;
+        $width1: 0.52rem;
+        $width2: 0.76rem;
+        height: $height;
+        .slice01 {
+          $left-revise: $left;
+          width: $width1;
+          top: $top;
+          left: $left-revise;
+          height: $height;
+          background-position-x: -$left-revise;
+          background-position-y: -$top;
+        }
+        .slice02 {
+          $left-revise: $left+$width1;
+          width: $width2;
+          top: $top;
+          left: $left-revise;
+          height: $height;
+          background-position-x: -$left-revise;
+          background-position-y: -$top;
+        }
+      }
+
+    }
+  }
+
+  .btn_start_wrap {
+    position: absolute;
+    left: 0.05rem;
+    bottom: 0.05rem;
+    .btn_start {
+      width: 1.225rem;
+      height: 1.18rem;
+      background-image: url('./image/btn_start.png');
+      background-size: cover;
+      position: absolute;
+      z-index: 9999;
+      bottom: 0.36rem;
+      left: 0.23rem;
+      -moz-animation: btn_start2 1.3s infinite step-start;
+      -webkit-animation: btn_start2 1.3s infinite step-start;
+      animation: btn_start2 1.3s infinite step-start;
+    }
+    .btn_start_label {
+      width: 1.67rem;
+      height: 0.445rem;
+      background-image: url('./image/btn_start_label.png');
+      background-size: cover;
+      position: relative;
+      z-index: 9900;
+    }
+  }
+
+}

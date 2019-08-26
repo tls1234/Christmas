@@ -1,0 +1,40 @@
+@-webkit-keyframes btn_start2 {
+  0% {
+    background-image: url('./image/btn_start.png');
+  }
+  15% {
+    background-image: url('./image/btn_start_up.png');
+  }
+  30% {
+    background-image: url('./image/btn_start.png');
+  }
+  45% {
+    background-image: url('./image/btn_start_up.png');
+  }
+  60% {
+    background-image: url('./image/btn_start.png');
+  }
+  100% {
+    background-image: url('./image/btn_start.png');
+  }
+}
+@keyframes btn_start2 {
+  0% {
+    background-image: url('./image/btn_start.png');
+  }
+  15% {
+    background-image: url('./image/btn_start_up.png');
+  }
+  30% {
+    background-image: url('./image/btn_start.png');
+  }
+  45% {
+    background-image: url('./image/btn_start_up.png');
+  }
+  60% {
+    background-image: url('./image/btn_start.png');
+  }
+  100% {
+    background-image: url('./image/btn_start.png');
+  }
+}
